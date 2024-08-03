@@ -1,0 +1,29 @@
+# Install Python and pip 
+sudo apt-get update
+
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
+sudo apt-get install wget
+
+wget https://bootstrap.pypa.io/get-pip.py
+
+sudo python3 get-pip.py
+
+
+# Install Mage
+sudo pip3 install mage-ai
+
+# Create new project and launch tool
+mage start [project_name]
+
+# Open Mage
+Open http://localhost:6789 / http://[VM external IP]:6789 in your browser.
+
+
+
+# Install Google Cloud Library
+sudo pip3 install google-cloud
+
+sudo pip3 install google-cloud-bigquery
