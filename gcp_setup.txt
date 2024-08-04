@@ -20,7 +20,7 @@ mage start [project_name]
 
 # Open Mage
 Open http://localhost:6789 / http://[VM external IP]:6789 in your browser.
-
+(If not available on the given port, check firewall settings and make the port accessible.)
 
 # Install Google Cloud Library
 sudo pip3 install google-cloud
