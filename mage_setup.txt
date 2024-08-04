@@ -22,8 +22,8 @@ mage start [project_name]
 Open http://localhost:6789 / http://[VM external IP]:6789 in your browser.
 
 
-
 # Install Google Cloud Library
 sudo pip3 install google-cloud
 
+# Install Google bigquery
 sudo pip3 install google-cloud-bigquery
